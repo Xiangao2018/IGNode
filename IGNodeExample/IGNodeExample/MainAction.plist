@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>action</key>
+		<string>igame://specialExercise</string>
+		<key>detail</key>
+		<string>难题攻克,专攻突破 </string>
+		<key>title</key>
+		<string>专项练习</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>igame://examinationPaper</string>
+		<key>detail</key>
+		<string>全真考题, 海量题库</string>
+		<key>title</key>
+		<string>真题试卷</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>igame://redoWrong</string>
+		<key>detail</key>
+		<string>薄弱点反复练习</string>
+		<key>title</key>
+		<string>错题重做</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>igame://collection</string>
+		<key>detail</key>
+		<string>可以训练有奇效</string>
+		<key>title</key>
+		<string>收藏</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>igame://myNote</string>
+		<key>detail</key>
+		<string>记录所有想法</string>
+		<key>title</key>
+		<string>我的笔记</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>igame://refreshQuestionSet</string>
+		<key>detail</key>
+		<string>最新题目等着你</string>
+		<key>title</key>
+		<string>刷新题库</string>
+	</dict>
+</array>
+</plist>
