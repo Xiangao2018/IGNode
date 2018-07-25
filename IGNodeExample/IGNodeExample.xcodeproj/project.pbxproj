@@ -17,9 +17,9 @@
 		842637832108C56B00A66D5A /* IGDispatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426377D2108C56B00A66D5A /* IGDispatchable.swift */; };
 		842637852108C5CC00A66D5A /* AppDelegate+Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842637842108C5CC00A66D5A /* AppDelegate+Instruction.swift */; };
 		842637872108C69100A66D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842637862108C69100A66D5A /* Main.storyboard */; };
-		842637892108C6D200A66D5A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842637882108C6D200A66D5A /* MainViewController.swift */; };
-		8426378B2108C71A00A66D5A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426378A2108C71900A66D5A /* MainController.swift */; };
-		8426378D2108C81F00A66D5A /* MainAction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8426378C2108C81E00A66D5A /* MainAction.plist */; };
+		8426378F2108CA1F00A66D5A /* MainAction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8426378E2108CA1F00A66D5A /* MainAction.plist */; };
+		842637912108CA2600A66D5A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842637902108CA2500A66D5A /* MainController.swift */; };
+		842637932108CA2E00A66D5A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842637922108CA2E00A66D5A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		8426377D2108C56B00A66D5A /* IGDispatchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGDispatchable.swift; sourceTree = "<group>"; };
 		842637842108C5CC00A66D5A /* AppDelegate+Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Instruction.swift"; sourceTree = "<group>"; };
 		842637862108C69100A66D5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		842637882108C6D200A66D5A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainViewController.swift; sourceTree = "<group>"; };
-		8426378A2108C71900A66D5A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = ../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainController.swift; sourceTree = "<group>"; };
-		8426378C2108C81E00A66D5A /* MainAction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MainAction.plist; path = ../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainAction.plist; sourceTree = "<group>"; };
+		8426378E2108CA1F00A66D5A /* MainAction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MainAction.plist; path = ../../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainAction.plist; sourceTree = "<group>"; };
+		842637902108CA2500A66D5A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = ../../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainController.swift; sourceTree = "<group>"; };
+		842637922108CA2E00A66D5A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../../Documents/Tutorial/iPhoneGame/iPhoneGame/MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +72,11 @@
 			children = (
 				842637762108C56B00A66D5A /* IGNode */,
 				842637522108C47C00A66D5A /* AppDelegate.swift */,
-				8426378C2108C81E00A66D5A /* MainAction.plist */,
+				8426378E2108CA1F00A66D5A /* MainAction.plist */,
 				842637862108C69100A66D5A /* Main.storyboard */,
-				8426378A2108C71900A66D5A /* MainController.swift */,
+				842637902108CA2500A66D5A /* MainController.swift */,
 				842637842108C5CC00A66D5A /* AppDelegate+Instruction.swift */,
-				842637882108C6D200A66D5A /* MainViewController.swift */,
+				842637922108CA2E00A66D5A /* MainViewController.swift */,
 				8426375B2108C47E00A66D5A /* LaunchScreen.storyboard */,
 				8426375E2108C47E00A66D5A /* Info.plist */,
 			);
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8426375D2108C47E00A66D5A /* LaunchScreen.storyboard in Resources */,
-				8426378D2108C81F00A66D5A /* MainAction.plist in Resources */,
+				8426378F2108CA1F00A66D5A /* MainAction.plist in Resources */,
 				842637872108C69100A66D5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,15 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8426377E2108C56B00A66D5A /* IGInstruction.swift in Sources */,
+				842637932108CA2E00A66D5A /* MainViewController.swift in Sources */,
 				8426377F2108C56B00A66D5A /* IGURLBridgeInfo.swift in Sources */,
 				842637812108C56B00A66D5A /* UIViewController+Node.swift in Sources */,
 				842637802108C56B00A66D5A /* IGNode.swift in Sources */,
-				8426378B2108C71A00A66D5A /* MainController.swift in Sources */,
 				842637832108C56B00A66D5A /* IGDispatchable.swift in Sources */,
 				842637532108C47C00A66D5A /* AppDelegate.swift in Sources */,
+				842637912108CA2600A66D5A /* MainController.swift in Sources */,
 				842637852108C5CC00A66D5A /* AppDelegate+Instruction.swift in Sources */,
 				842637822108C56B00A66D5A /* IGBridge.swift in Sources */,
-				842637892108C6D200A66D5A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
